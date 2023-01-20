@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width:1000px;
+    margin:0 auto;
+}
+
+#header{
+    background-image: url(images/gambar-header.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-color:#FFFF99;
+    width:1000px;
+    height:160px;
+}
+
+#menu{
+    background-color:#993300;
+    width:1000px;
+    height:35px;
+}
+
+#content{
+    background-color:#EBEBEB;
+    width:700px;
+    float:left;
+}
+
+#right {
+    width:300px;
+    background-color:#EBEBEB;
+    float:left;
+}
+
+/* background-image:url(/images/); */
+#footer{
+    background-color: aquamarine;
+    width:1000px;
+    height:128px;
+    float:left;
+}
+
+.kode_tabel {
+    border-left: limegreen 5px solid;
+    font-family: monospace;
+    font-size: 15px;   
+}
