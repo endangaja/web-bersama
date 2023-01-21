@@ -49,7 +49,7 @@ body, html {
 
 .kode_tabel {
     width: inherit;
-    border-left: limegreen 5px solid;
+    border-left: limegreen 4px solid;
     font-family: monospace;
     font-size: 15px;
 }

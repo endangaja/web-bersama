@@ -43,12 +43,26 @@ h1 {
 
 .kode_tabel {
     width: 700px;
-    border-left: limegreen 5px solid;
+    border-left: limegreen 4px solid;
     font-family: monospace;
     font-size: 12px;
-    width: inherit;   
+    width: inherit;
 }
 
 tr:hover {
     background-color: rgb(224, 224, 224);
+}
+
+.blue {
+    color: royalblue;
+    font-weight: bold;
+}
+
+a {
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
