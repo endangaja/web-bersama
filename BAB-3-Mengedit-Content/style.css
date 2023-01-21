@@ -1,0 +1,42 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+#content {
+    background-color: #EBEBEB;
+    width: 675px;
+    float: left;
+    padding: 15px 10px 15px 15px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    text-align: justify;
+}
+
+h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.indent:first-letter {
+    font-size: 70px;
+    color: #0000CC;
+    font-weight: bold;
+    float: left;
+}
+
+.rtk {
+    text-decoration: blink;
+    font-weight: bold;
+    color: #FF0000;
+    background-color: #CCCC00;
+}
+
+.preset {
+    font-style: italic;
+    font-weight: bold;
+}

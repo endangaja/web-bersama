@@ -39,12 +39,12 @@ body, html {
     float:left;
 }
 
-/* background-image:url(/images/); */
 #footer{
-    background-color: aquamarine;
+    background-image: url(images/gif-footer.gif);
     width:1000px;
     height:128px;
     float:left;
+    
 }
 
 .kode_tabel {
