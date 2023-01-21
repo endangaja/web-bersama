@@ -48,8 +48,12 @@ body, html {
 }
 
 .kode_tabel {
+    width: inherit;
     border-left: limegreen 5px solid;
     font-family: monospace;
-    font-size: 15px;   
+    font-size: 15px;
 }
 
+tr:hover {
+    background-color: rgb(224, 224, 224);
+}

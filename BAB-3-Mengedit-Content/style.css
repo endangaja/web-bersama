@@ -40,3 +40,15 @@ h1 {
     font-style: italic;
     font-weight: bold;
 }
+
+.kode_tabel {
+    width: 700px;
+    border-left: limegreen 5px solid;
+    font-family: monospace;
+    font-size: 12px;
+    width: inherit;   
+}
+
+tr:hover {
+    background-color: rgb(224, 224, 224);
+}
