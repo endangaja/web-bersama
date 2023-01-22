@@ -15,6 +15,10 @@
     text-align: justify;
 }
 
+img {
+    width: inherit;
+}
+
 h1 {
     text-decoration: underline;
     text-transform: uppercase;
