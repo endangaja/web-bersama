@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#content {
+    background-color: #EBEBEB;
+    width: 700px;
+    height: 531px;
+    float: left;
+}
+
+#right {
+    width: 300px;
+    background-color: #EBEBEB;
+    float: left;
+}
+
+.member {
+    width: 264px;
+    height: 67px;
+    background: url(img/member_login.png) 0 10px no- repeat;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #FFCC00;
+    text-indent: 50px;
+    line-height: 50px;
+}
+
+form {
+    background: url(images/memberlogin_bg.gif) repeat-y;
+    width: 228px;
+    padding: 0 18px 0 18px;
+    margin: 0 auto;
+}
+
+form input.txtBox {
+    width: 206px;
+    height: 25px;
+    border-left: #808080 solid 1px;
+    border-top: #808080 solid 1px;
+    border-right: #D4D0C8 solid 1px;
+    border-bottom: #D4D0C8 solid 1px;
+    color: #000000;
+    background-color: #FFFFCC;
+    margin: 5 0 17px 0;
+    padding: 0 0 0 20px;
+}
+
+form a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF6600;
+    text-decoration: underline;
+    padding: 0 0 0 14px;
+    float: left;
+    background: url(images/register_here_bg.gif) 0 5px no- repeat;
+}
+
+form a:hover {
+    text-decoration: none;
+}
+
+form input.login {
+    background: url(images/btn_login.gif) no-repeat;
+    width: 53px;
+    height: 13px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.bawah {
+    background: url(images/memberlogin_bot.gif) no-repeat;
+    width: 264px;
+    height: 25px;
+    margin: 0 0 5px 0;
+    margin: auto;
+}
+
+.categories {
+    font: bold;
+    line-height: 40px;
+    font-size: 24px;
+    color: #FFFFCC;
+    background-color: #FF9900;
+    padding: 0 0 0 17px;
+    margin-top: 30px;
+}
+
+ul {
+    width: 238px;
+    padding: 0 0 0 17px;
+}
+
+ul li {
+    display: block;
+    background: url(images/dot.gif) bottom repeat-x;
+    height: 25px;
+    width: 238px;
+}
+
+ul li a {
+    background: url(images/arrow.gif) 0 7px no-repeat;
+    font-size: 14px;
+    color: #000000;
+    background-color: #EBEBEB;
+    text-decoration: none;
+    margin: 0;
+    padding: 3 0 3 14px;
+    display: block;
+}
+
+#right ul li a:hover {
+    color: #FFFFFF;
+    background-color: #FF9900;
+}

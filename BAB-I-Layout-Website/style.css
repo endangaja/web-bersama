@@ -12,13 +12,13 @@ body, html {
 }
 
 #header{
-    background-image: url(images/gambar-header.jpg);
+    background-image: url(images/header.png);
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
     background-color:#FFFF99;
     width:1000px;
-    height:160px;
+    height:400px;
 }
 
 #menu{
@@ -40,12 +40,13 @@ body, html {
 }
 
 #footer{
-    background-image: url(images/gif-footer);
-    background-size: cover;
     width:1000px;
+    height:150px;
+    background-position: center;
     background-repeat: no-repeat;
-    height:128px;
+    background-size: cover;
     float:left;
+    background-image: url(images/gif-footer);
     
 }
 
@@ -58,7 +59,7 @@ body, html {
 }
 
 .kode_tabel tr:hover {
-    background-color: grey;
+    background-color: #c7c9c8;
 }
 
 tr:hover {
