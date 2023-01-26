@@ -1,0 +1,34 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: verdana;
+}
+
+#menu {
+    background-color: #993300;
+    width: 1000px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:link {
+    background-color: #FFFF00;
+    color: #000099;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    background-color: #0000CC;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+a:active {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: 100;
+}
