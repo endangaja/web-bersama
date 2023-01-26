@@ -40,7 +40,7 @@ body, html {
 }
 
 #footer{
-    background-image: url(images/gif-footer.gif);
+    background-image: url(images/wave.png);
     width:1000px;
     height:128px;
     float:left;
@@ -52,6 +52,11 @@ body, html {
     border-left: limegreen 4px solid;
     font-family: monospace;
     font-size: 15px;
+    width: 700px;
+}
+
+.kode_tabel tr:hover {
+    background-color: grey;
 }
 
 tr:hover {
