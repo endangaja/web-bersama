@@ -23,7 +23,8 @@ body {
 .member {
     width: 264px;
     height: 67px;
-    background: url(img/member_login.png) 0 10px no- repeat;
+    background: url(img/member_login.png) 0 10px no-repeat;
+    background-size: cover;
     margin: 0 auto;
     font-size: 20px;
     color: #FFCC00;
@@ -32,7 +33,8 @@ body {
 }
 
 form {
-    background: url(images/memberlogin_bg.gif) repeat-y;
+    background: url(img/memberlogin_bg.jpeg) repeat-y top;
+    background-size: cover;
     width: 228px;
     padding: 0 18px 0 18px;
     margin: 0 auto;
@@ -58,7 +60,7 @@ form a {
     text-decoration: underline;
     padding: 0 0 0 14px;
     float: left;
-    background: url(images/register_here_bg.gif) 0 5px no- repeat;
+    background: url(img/register_here_bg.jpeg) 0 5px no-repeat;
 }
 
 form a:hover {
@@ -66,7 +68,7 @@ form a:hover {
 }
 
 form input.login {
-    background: url(images/btn_login.gif) no-repeat;
+    background: url(img/btn_login.jpeg) no-repeat;
     width: 53px;
     height: 13px;
     border: none;
@@ -75,7 +77,8 @@ form input.login {
 }
 
 .bawah {
-    background: url(images/memberlogin_bot.gif) no-repeat;
+    background: url(img/memberlogin_bot.png) no-repeat;
+    background-size: cover;
     width: 264px;
     height: 25px;
     margin: 0 0 5px 0;
@@ -99,14 +102,16 @@ ul {
 
 ul li {
     display: block;
-    background: url(images/dot.gif) bottom repeat-x;
+    background: url(img/dot.jpeg) bottom repeat-x;
+    background-size: 3px;
     height: 25px;
     width: 238px;
 }
 
 ul li a {
-    background: url(images/arrow.gif) 0 7px no-repeat;
+    background: url(img/arrow.jpeg) 0 7px no-repeat;
     font-size: 14px;
+    background-position: left;
     color: #000000;
     background-color: #EBEBEB;
     text-decoration: none;

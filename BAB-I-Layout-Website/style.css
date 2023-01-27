@@ -12,13 +12,13 @@ body, html {
 }
 
 #header{
-    background-image: url(images/header.png);
-    background-repeat:no-repeat;
-    background-position:center;
+    background-image: url(images/header.jpeg);
+    background-position: bottom;
     background-size: cover;
+    background-repeat:no-repeat;
     background-color:#FFFF99;
     width:1000px;
-    height:400px;
+    height:160px;
 }
 
 #menu{
