@@ -1,0 +1,53 @@
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#footer {
+    width: 1000px;
+    height: 128px;
+    float: left;
+}
+
+#bottom {
+    text-align: center;
+    font-family: Geneva;
+    font-size: 12px;
+    margin: 25px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+}
+
+#bottom a {
+    color: #FFFFFF;
+}
+
+#bottom a:link {
+    text-decoration: none;
+}
+
+#bottom a:hover {
+    text-decoration: underline;
+    color: #FFFF00;
+}
+
+#copy {
+    margin: 25px 0 0 0;
+    font-family: verdana;
+    color: #FFFFCC;
+    font-size: 10px;
+    text-align: center;
+}
+
+#copy a {
+    color: #FFFFCC;
+}
+
+#footer #copy a:link {
+    text-decoration: none;
+}
+
+#footer #copy a:hover {
+    text-decoration: underline;
+}
