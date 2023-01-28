@@ -4,7 +4,7 @@
 }
 
 #footer {
-    background-image: url(images/footer.gif);
+    background-image: url(img/bg-revisi-5.jpg);
     width: 1000px;
     height: 128px;
     float: left;
@@ -21,7 +21,7 @@
 }
 
 #bottom a {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 #bottom a:link {
@@ -36,13 +36,13 @@
 #copy {
     margin: 25px 0 0 0;
     font-family: verdana;
-    color: #FFFFCC;
+    color: #000000;
     font-size: 10px;
     text-align: center;
 }
 
 #copy a {
-    color: #FFFFCC;
+    color: #000000;
 }
 
 #footer #copy a:link {
@@ -52,5 +52,3 @@
 #footer #copy a:hover {
     text-decoration: underline;
 }
-
-/* buatlah animasi gif wave menggunakana css */
