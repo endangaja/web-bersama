@@ -4,11 +4,15 @@
 }
 
 body {
-    font-family: Verdana;
     font-size: 12px;
+    font-family: Verdana;    
 }
 
 body #container {
     width: 1000px;
     margin: 0 auto;
+}
+
+table .kode_tabel {
+    border-left: #32CD32 solid 5px;
 }
