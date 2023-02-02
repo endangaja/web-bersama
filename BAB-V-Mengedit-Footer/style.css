@@ -4,7 +4,7 @@
 }
 
 #footer {
-    background-image: url(img/bg-revisi-5.jpg);
+    background-image: url(img/bg.gif);
     width: 1000px;
     height: 128px;
     float: left;
@@ -21,7 +21,7 @@
 }
 
 #bottom a {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #bottom a:link {
@@ -36,13 +36,13 @@
 #copy {
     margin: 25px 0 0 0;
     font-family: verdana;
-    color: #000000;
+    color: #FFFFFF;
     font-size: 10px;
     text-align: center;
 }
 
 #copy a {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 #footer #copy a:link {
