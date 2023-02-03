@@ -5,14 +5,15 @@
 
 /* * ini untuk body masbro */
 body {
-    font-family: Verdana;
     font-size: 12px;
+    font-family: Verdana;    
 }
 
 /* * ini untuk container masbro */
 body #container {
     width: 1000px;
     margin: 0 auto;
+<<<<<<< HEAD
     background-color: #EBEBEB;
 }
 
@@ -268,4 +269,10 @@ footer
 .kode_tabel {
     border-left: #32CD32 solid 5px;
     width: inherit;
+=======
+}
+
+table .kode_tabel {
+    border-left: #32CD32 solid 5px;
+>>>>>>> secondary
 }
