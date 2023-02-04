@@ -104,6 +104,17 @@ h1 {
     background-color: #CCCCCC;
 }
 
+#content a {
+    text-decoration: none;
+}
+#content a:hover {
+    text-decoration: underline;
+}
+
+#content a:active {
+    color: #FF0000;
+}
+
 /* ! konten */
 
 
@@ -196,4 +207,73 @@ ul.pinggir li {
     background-size: 2px;
     height: 25px;
     width: 238px;
+}
+
+ul li a {
+    background: url(../BAB-IV-Mengedit-Colom-Right/img/arrow.jpeg) 0 7px no-repeat;
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0;
+    padding: 3 0 3 14px;
+    display:block;
+}
+
+#right ul li a:hover{
+    color: #FFFFFF;
+    background-color: #FF9900;
+}
+
+/* !colom right */
+
+/* !ini footer masbrooo */
+
+#footer {
+    background-image: url(../BAB-V-Mengedit-Footer/img/footer.gif);
+    width: 1000px;
+    height: 128px;
+    float: left;
+}
+
+#bottom {
+    text-align: center;
+    font-family: Geneva, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 25 0 0 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+}
+
+#bottom a {
+    color: #FFFFFF;
+}
+
+#bottom a:link {
+    text-decoration: none;
+}
+
+#bottom a:hover {
+    text-decoration: underline;
+    color: #00FF00;
+}
+
+#copy {
+    margin: 25px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFCC;
+    font-size: 10px;
+    text-align: center;
+}
+
+copy a {
+    color: #FFFFCC;
+}
+
+#footer #copy a:link {
+    text-decoration: none;
+}
+
+#footer copy a:hover {
+    text-decoration: underline;
 }
