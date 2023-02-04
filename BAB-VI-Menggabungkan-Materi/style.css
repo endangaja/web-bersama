@@ -115,8 +115,9 @@ h1 {
 }
 
 .member {
-    width: 264px;
+    width: 228px;
     height: 67px;
+    margin-left: 18px;
     background: url(../BAB-IV-Mengedit-Colom-Right/img/member_login.png) 0 10px no-repeat;
     background-size: cover; 
 }
@@ -126,4 +127,73 @@ form {
     width: 228px;
     padding: 0 18px 0 18px;
     margin: auto;
+}
+
+form input.txtBox {
+    width: 206px;
+    height: 25px;
+    border-left: #808080 solid 1px;
+    border-top: #808080 solid 1px;
+    border-right: #D4D0C8 solid 1px;
+    border-bottom: #D4D0C8 solid 1px;
+    color: #000000;
+    background-color: #FFFFCC;
+    margin: 5 0 17px 0;
+    padding: 0 0 0 20px;
+}
+
+form a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FF6600;
+    text-decoration: underline;
+    padding: 0 0 0 14px;
+    float: left;
+    background: url(../BAB-IV-Mengedit-Colom-Right/img/register_here_bg.jpeg) 0 5px no-repeat;
+}
+
+form a:hover {
+    text-decoration: none;
+}
+
+form input.login{
+    background: url(../BAB-IV-Mengedit-Colom-Right/img/btn_login.jpeg) no-repeat;
+    width: 53px;
+    height: 13px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.bawah {
+    background: url(../BAB-IV-Mengedit-Colom-Right/img/memberlogin_bot.png) no-repeat;
+    width: 264px;
+    height: 25px;
+    margin: 0 0 5px 0;
+    margin: auto;
+}
+
+.categories {
+    font: bold;
+    line-height: 40px;
+    font-size: 24px;
+    color: #FFFFCC;
+    background-color: #FF9900;
+    width: 265px;
+    padding: 0 0 0 14px;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+ul.pinggir{
+    width: 238px;
+    padding: 0 0 0 17px;
+}
+
+ul.pinggir li {
+    display: block;
+    background: url(../BAB-IV-Mengedit-Colom-Right/img/dot.jpeg) bottom repeat-x;
+    background-size: 2px;
+    height: 25px;
+    width: 238px;
 }
