@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Muhammad Defriansyah" />
+    <link rel="stylesheet" href="style.css" media="all" />
+    <title>Home</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="header"></div>
+
+        <div id="menu">
+            <a href="index.html">HOME</a>
+            <a href="produk.html">PRODUK</a>
+            <a href="artikel.html">ARTIKEL</a>
+            <a href="member.html">MEMBER</a>
+            <a href="testimoni.html">TESTIMONIAL</a>
+            <a href="kontak.html">KONTAK</a>
+            <a href="about-us.html">ABOUT US</a>
+        </div>
+
+        <div id="content">
+            <h1>Apa Itu HTML? Fungsi dan Cara Kerja HTML</h1>
+
+            <p id="indent" class="indent">
+                Biasanya, penggunaan umum HTML adalah untuk menyusun bagian paragraf, heading, maupun link pada halaman
+                web.
+            </p>
+            <p>Nah, di artikel ini, selain membahas tentang apa itu HTML, kami juga akan membahas sejarah, cara kerja
+                HTML, dan lain sebagainya. Selamat membaca!</p>
+            <blockquote class="preset">HTML adalah singkatan dari Hypertext Markup Language, yaitu bahasa markup standar
+                untuk membuat dan menyusun halaman dan aplikasi web.</blockquote>
+            <h2>Pengertian HTML dan Sejarahnya</h2>
+            <p>Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman
+                website dan aplikasi web. Sejarah HTML diciptakan oleh Tim Berners-Lee, seorang ahli fisika di lembaga
+                penelitian CERN yang berlokasi di Swiss.</p>
+            <p>Versi pertama HTML dirilis oleh Tim Berners Lee pada tahun 1991, yang memiliki 18 tag. Sejak saat itu,
+                setiap kali ada versi barunya, pasti akan selalu ada tag dan attribute (tag modifier) yang juga baru.
+            </p>
+            <p>Ketika bekerja dengan bahasa markup ini, Anda menggunakan struktur kode sederhana (tag dan attribute)
+                untuk mark up halaman website. Misalnya, Anda membuat sebuah paragraf dengan menempatkan enclosed text
+                di antara tag pembuka <em>&lt;p&gt;</em> dan tag penutup <em>&lt;/p&gt;</em></p>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;p&gt;<span class="blue">This</span> is how to add a paragraph <span class="blue">in</span>
+                        HTML.&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;You can have more than one!&lt;/p&gt;</td>
+                </tr>
+            </table>
+
+            <p>Berkat popularitasnya yang terus meningkat, bahasa markup ini kini dianggap sebagai standar web resmi.
+                Tapi, meskipun susunannya seperti coding</p>
+            <span class="rtk">perlu diketahui bahwa HTML bukanlah bahasa pemrograman </span>.
+            <p>Spesifikasi HTML dikelola dan dikembangkan oleh World Wide Web Consortium (W3C). Berdasarkan <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML Element
+                    Reference</a> milik Mozilla Developer Network, saat ini ada 140 tag HTML, meskipun sebagiannya sudah
+                tidak lagi didukung oleh beberapa versi terbaru browser.</p>
+            <p>Kemudian, pada tahun 2014, <strong>HTML5</strong> mulai diperkenalkan. Dengan diperkenalkannya HTML5,
+                terdapat semantic baru seperti <strong>&lt;article&gt;</strong>, <strong>&lt;header&gt;</strong>, dan
+                <strong>&lt;footer&gt;</strong>
+            </p>
+            <p>Nah, setelah Anda tahu apa itu HTML, selanjutnya kami akan membahas cara kerjanya.</p>
+
+            <h2>Bagaimana Cara Kerja HTML?</h2>
+            <p>Ekstensi file HTML adalah <strong>.html</strong> atau <strong>.htm</strong>, yang bisa dilihat dengan
+                mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut
+                membaca file HTML dan merender kontennya sehingga user internet bisa melihat dan membacanya.</p>
+            <p>Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, halaman
+                beranda, 'Tentang Kami', halaman kontak memiliki dokumennya sendiri-sendiri.</p>
+            <p>Masing-masing halaman tersebut terdiri atas serangkaian <strong>tags</strong> (bisa disebut juga
+                <strong>elements</strong>), yang tersusun untuk membentuk sebuah halaman website. Tag tersebut membuat
+                hierarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan <em>block</em> kontent
+                lainnya.
+            </p>
+            <p>Sebagian besar elemen bahasa markup ini memiliki tag pembuka dan penutup yang menggunakan syntax
+                <strong>&lt;tag&gt;&lt;/tag&gt;</strong>
+            </p>
+            <p>Berikut contoh kode dari susunan atau struktur HTML:</p>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;div&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;h1&gt;The Main Heading&lt;/h1&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;h2&gt;A catchy subheading&lt;/h2&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;p&gt;Paragraph one&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;img src=<span class="blue">"/"</span> alt=<span class="blue">"Image" /</span>&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;Paragraph two with a &lt;a href=<span
+                            class="blue">"https://example.com"</span>&gt;hyperlink&lt;a/&gt;&lt;/p&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;div&gt;</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li>Elemen teratas dan terbawah adalah division sederhana <strong>(&lt;div&gt;&lt;/div&gt;)</strong>
+                    yang
+                    bisa Anda gunakan untuk mark up bagian konten yang lebih besar.</li>
+                <li>Susunan di atas terdiri atas heading <strong><em>(&lt;h1&gt;&lt;/h1&gt;)</em></strong>, subheading
+                    <strong>(&lt;h2&gt;&lt;/h2&gt;)</strong>, dua paragraf <strong>(&lt;p&gt;&lt;/p&gt;)</strong>, dan
+                    satu
+                    gambar <em><strong>(&lt;img&gt;)</strong></em>.
+                </li>
+                <li>Paragraf kedua meliputi sebuah link <em><strong>(&lt;a&gt;&lt;/a&gt;)</strong></em> dengan attribute
+                    href yang terdiri atas URL tujuan.</li>
+                <li>Tag gambar memiliki dua attribute, <em><strong>src</strong></em> untuk path gambar dan
+                    <em><strong>alt</strong></em> untuk deskripsi gambar.
+                </li>
+            </ul>
+
+            <p>Selain itu, beberapa contoh penggunaan umum HTML adalah:</p>
+            <ul>
+                <li><strong>Pengembangan web.</strong> Developer menggunakan kode HTML untuk mendesain tampilan elemen
+                    halaman web di browser, seperti teks, hyperlink, dan file media. </li>
+                <li><strong>Navigasi internet.</strong> Pengguna bisa menelusuri dan menyisipkan link antara halaman dan
+                    website terkait karena HTML banyak digunakan untuk menyematkan hyperlink. </li>
+                <li><strong>Dokumentasi web.</strong> HTML bisa digunakan untuk mengatur dan memformat dokumen, mirip
+                    dengan
+                    Microsoft Word.</li>
+            </ul>
+
+            <h2>Pengertian Tag HTML dan Fungsinya</h2>
+            <p>Tag HTML memiliki dua tipe utama: <strong>block-level</strong> dan <strong>inline tags.</strong></p>
+
+            <ol>
+                <li>Elemen <em>block-level</em> memakai semua ruang yang tersedia dan selalu membuat line baru di dalam
+                    dokumen. Contoh dari tag <em>block</em> adalah heading dan paragraf.</li>
+                <li>Elemen <em>inline</em> hanya memakai space sesuai dengan kebutuhannya dan tidak membuat line baru di
+                    halaman. Biasanya elemen ini akan memformat isi konten dari elemen <em>block-level.</em> Contoh dari
+                    tag
+                    inline adalah link dan <em>emphasized strings.</em></li>
+            </ol>
+
+            <h3>Tag Block-Level</h3>
+            <p>Tiga tag block-level yang harus dimiliki oleh setiap dokumen HTML adalah &lt;html&gt;, &lt;head&gt;, dan
+                &lt;body&gt;.</p>
+
+            <ol>
+                <li>Tag &lt;html&gt;&lt;/html&gt; adalah elemen level tertinggi yang menyertakan setiap halaman HTML.
+                </li>
+                <li>Tag &lt;head&gt;&lt;/head&gt; menyimpan informasi meta, seperti judul dan charset halaman.</li>
+                <li>Tag &lt;body&gt;&lt;/body&gt; melampirkan semua konten yang muncul pada suatu halaman.</li>
+            </ol>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;html&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;head&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&emsp;&lt;!-- META INFORMATION --&gt; </td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;/head&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;body&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&emsp;&lt;!-- PAGE CONTENT --&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;/body&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;/html&gt;</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li>Heading memiliki 6 level. Level tersebut bervariasi, mulai dari &lt;h1&gt;&lt;/h1&gt; sampai
+                    &lt;h6&gt;&lt;/h6&gt;, di mana h1 merupakan level heading tertinggi dan h6 adalah level terendah.
+                    Paragraf dibuka dan ditutup dengan tag &lt;p&gt;&lt;/p&gt;, sedangkan blockquote menggunakan tag
+                    &lt;blockquote&gt;&lt;/blockquote&gt;.</li>
+                <li>Division merupakan bagian konten yang lebih besar dan biasanya terdiri atas beberapa paragraf,
+                    gambar,
+                    kadang-kadang blockquote, dan elemen lebih kecil lainnya. Kita bisa membuat mark up dengan
+                    menggunakan
+                    tag &lt;div&gt;&lt;/div&gt;. Di dalam elemen div juga terdapat tag div lainnya.</li>
+                <li>Anda juga bisa menggunakan tag &lt;ol&gt;&lt;/ol&gt; untuk list yang berurutan dan
+                    &lt;ul&gt;&lt;/ul&gt;
+                    untuk list yang tidak berurutan. Masing-masing list item harus dibuka dan ditutup dengan tag
+                    &lt;li&gt;&lt;/li&gt;. Sebagai contoh, di bawah ini adalah tampilan dasar daftar tidak berurutan
+                    dalam
+                    HTML:</li>
+            </ul>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;list item 1&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;list item 2&gt;</td>
+                </tr>
+                <tr>
+                    <td>&emsp;&lt;list item 3&gt;</td>
+                </tr>
+                <tr>
+                    <td>&lt;ul&gt;</td>
+                </tr>
+            </table>
+
+            <h3>Tag Inline</h3>
+            <p>Sebagian besar tag inline digunakan untuk memformat teks. Sebagai contoh, tag
+                <strong>&lt;strong&gt;&lt;/strong&gt;</strong> akan render elemen ke format <strong>bold</strong>,
+                sedangkan
+                tag <em>&lt;em&gt;&lt;/em&gt;</em> akan ditampilkan dalam format <em>italic</em>.
+            </p>
+
+            <p>Hyperlink adalah elemen inline yang mewajibkan adanya tag &lt;a&gt;&lt;/a&gt; dan attribute href untuk
+                mengindikasi tujuan link:</p>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;a href="https://example.com/"&gt;Click me!&lt;/a&gt;</td>
+                </tr>
+            </table>
+
+            <p>Gambar (image) juga merupakan elemen inline. Anda dapat menambahkan satu gambar dengan menggunakan
+                &lt;img&gt; tanpa harus membubuhkan tag penutup. Hanya saja, Anda disarankan menggunakan attribute
+                <strong><em>src</em></strong> untuk menentukan path gambar, misalnya:
+            </p>
+
+            <table class="kode_tabel">
+                <tr>
+                    <td>&lt;img src="/images/example.jpg" alt="Example image"&gt;</td>
+                </tr>
+            </table>
+
+            <p>Jika ingin mempelajari lebih dalam tentang pengertian tag HTML serta tag HTML dan funsginya, silakan baca
+                artikel <a href="https://www.hostinger.co.id/tutorial/html-cheat-sheet" target="_blank">cheat sheet</a>
+                kami, lengkap dengan link unduhan dokumen PDF untuk membantu Anda mempelajarinya.</p>
+
+            <h2>Apa yang Membedakan HTML dengan HTML5?</h2>
+            <p>Sejak pertama diperkenalkan, bahasa ini telah melewati perkembangan yang cukup signifikan. W3C terus
+                merilis
+                versi dan update terbaru sembari mencetak sejarah dan mengukuhkan keberadaannya.</p>
+
+            <p>HTML4 (dikenal sebagai “HTML”) dirilis pada tahun 1999 dan versi terbarunya diperkenalkan pada publik
+                pada
+                tahun 2014, yaitu <strong>HTML5</strong>, versi terbaru ini menambahkan lebih banyak fitur baru ke
+                bahasa
+                mark up ini.</p>
+
+            <p>Salah satu fitur canggih di HTML5 adalah dukungan untuk embed audio dan video. Jadi, alih-alih
+                menggunakan
+                Flash player, kita bisa menyematkan file video dan audio ke halaman website dengan memanfaatkan tag
+                <strong><em>&lt;audio&gt;&lt;/audio&gt;</em></strong> dan
+                <strong><em>&lt;video&gt;&lt;/video&gt;</em></strong>. Fitur tersebut juga memiliki dukungan bawaan
+                untuk
+                SVG dan MathML untuk rumus matematika dan ilmiah.
+            </p>
+
+            <p>HTML5 juga memperkenalkan beberapa perbaikan pada semantic. Tag semantic baru mengirimkan informasi pada
+                browser tentang arti konten, yang tak hanya bermanfaat bagi pembaca, tapi juga mesin pencari.</p>
+
+            <p>Tag semantic yang paling banyak digunakan adalah &lt;article&gt;&lt;/article&gt;,
+                &lt;section&gt;&lt;/section&gt;, &lt;aside&gt;&lt;/aside&gt;, &lt;header&gt;&lt;/header&gt;, dan
+                &lt;footer&gt;&lt;/footer&gt;. Jika ingin mempelajari lebih lanjut, silakan baca artikel kami tentang <a
+                    href="https://www.hostinger.co.id/tutorial/perbedaan-html-dan-html5/">perbedaan HTML dan HTML5.</a>
+            </p>
+
+            <h2>Kelebihan dan Kekurangan HTML</h2>
+            <p>Sama seperti hal teknis lainnya dalam dunia web, bahasa markup ini juga punya kelebihan dan
+                kekurangannya.
+            </p>
+            <p>Berikut <strong>kelebihan HTML:</strong></p>
+
+            <uL>
+                <li>Digunakan secara luas dan memiliki banyak sumber serta komunitas yang besar.</li>
+                <li>Dijalankan secara alami di setiap web browser.</li>
+                <li>Mudah dipelajari.</li>
+                <li>Open-source dan sepenuhnya gratis.</li>
+                <li>Rapi dan konsisten.</li>
+                <li>Menjadi standar resmi web, dikelola oleh (W3C).</li>
+                <li>Integrasi mudah dengan bahasa backend, seperti PHP dan Node.js.</li>
+            </uL>
+
+            <p>Kemudian, kekurangan HTML adalah:</p>
+            <ul>
+                <li>Umumnya digunakan untuk halaman web statis. Untuk fitur dinamis, Anda bisa menggunakan JavaScript
+                    atau
+                    bahasa backend, seperti PHP.</li>
+                <li>Tidak bisa menjalankan <em>logic.</em> Alhasil, semua halaman web harus dibuat terpisah meskipun
+                    menggunakan elemen yang sama, seperti header dan footer.</li>
+                <li>Fitur baru tidak bisa digunakan dengan cepat di sebagian browser.</li>
+                <li>Perilaku browser terkadang sulit diprediksi. Misalnya, browser lama tidak selalu bisa merender tag
+                    yang
+                    lebih baru.</li>
+            </ul>
+
+            <h2>Hubungan HTML, CSS dan JavaScript</h2>
+            <p>Meskipun dinyatakan sebagai bahasa markup yang canggih dan mudah, HTML tidak sepenuhnya bisa membuat
+                website
+                yang profesional dan responsif. Bahasa ini hanya bisa digunakan untuk menambah elemen dan membuat
+                struktur
+                konten.</p>
+
+            <p>Namun di satu sisi, bahasa ini bisa bekerja secara maksimal dengan dua bahasa frontend: <a
+                    href="https://www.hostinger.com/tutorials/css-cheat-sheet" target="_blank">CSS (Cascading Style
+                    Sheets)</a> dan <a href="https://www.hostinger.co.id/tutorial/apa-itu-javascript/"
+                    target="_blank">JavaScript</a>. Jika digabungkan, kedua bahasa frontend ini bisa meningkatkan
+                pengalaman
+                user dan memberikan fungsi yang lebih canggih.</p>
+
+            <ul>
+                <li>CSS erat kaitannya dengan <em>styling</em>, seperti background, warna, layout, spacing, dan
+                    animiasi.
+                </li>
+                <li>JavaScript memungkinkan Anda menambahkan fungsionalitas yang dinamis, seperti slider, pop-up, dan
+                    galeri
+                    foto.</li>
+            </ul>
+
+            <p>Jika digambarkan, berikut perbedaan HTML dan CSS dan JavaScript: HTML adalah orang yang tidak mengenakan
+                busana apa pun, kemudian CSS adalah bajunya, kemudian JavaScript adalah aktivitas dan sikap orang
+                tersebut.
+            </p>
+
+            <h2>Jadi, HTML Adalah…</h2>
+            <p>Sampai di sini, Anda sudah mempelajari apa itu HTML, pengertiannya, dan cara kerjanya.</p>
+            <p>HTML adalah bahasa markup, bukan bahasa pemrograman, dan tidak memiliki kemampuan untuk membuat
+                fungsionalitas yang dinamis. Dengan bahasa markup ini, user bisa mengelola dan memformat dokumen secara
+                statis, sama seperti Microsoft Word.</p>
+            <p>Berdasarkan cara kerja HTML, Anda bisa menggunakannya untuk membuat struktur konten pada website dan
+                aplikasi
+                web (menggunakan coding sederhana).</p>
+            <p>HTML merupakan level terbawah dari teknologi frontend dan berfungsi sebagai dasar <em>styling</em> yang
+                bisa
+                Anda tambahkan dengan CSS dan fungsionalitas yang dapat dijalakan menggunakan JavaScript.</p>
+        </div>
+
+        <div id="right">
+            <h2 class="member">Member Login</h2>
+            <form name="memberLogin" action="#" method="post">
+                <input type="text" name="name" class="txtBox" value="-nama-anda
+                -" />
+                <br /> <br />
+                <input type="password" name="name2" class="txtBox" value="-passw
+                ord-" />
+                <a href="#">Register here</a>
+                <input type="submit" name="login" value="" class="login" />
+                <br class="spacer" />
+            </form>
+            <p class="bawah"></p>
+            <h2 class="categories">Categories</h2>
+            <ul class="pinggir">
+                <li><a href="#">&emsp;Software</a></li>
+                <li><a href="#">&emsp;Hardware.</a></li>
+                <li><a href="#">&emsp;Belajar CSS </a></li>
+                <li><a href="#">&emsp;Belajar PHP </a></li>
+                <li><a href="#">&emsp;Belajar Wordpress </a></li>
+                <li><a href="#">&emsp;Plugin Wordpress </a></li>
+                <li><a href="#">&emsp;WP Themes </a></li>
+                <li><a href="#">&emsp;Download</a></li>
+                <li><a href="#">&emsp;Testimonial</a></li>
+                <li class="noImg"><a href="#">&emsp;Berita</a><br class="spacer" />
+                </li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            <p id="bottom">
+                <a href="index.html">HOME</a>
+                <a href="produk.html">PRODUK</a>
+                <a href="artikel.html">ARTIKEL</a>
+                <a href="member.html">MEMBER</a>
+                <a href="testimoni.html">TESTIMONIAL</a>
+                <a href="about-us.html">ABOUT US</a>
+            </p>
+            <p id="copy">
+                Copyright &copy; 2011 <a href="http://rudydevianto.com" target="_blank">Rudy Devianto.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
