@@ -236,6 +236,8 @@ h1 {
     width: 264px;
     height: 67px;
     background: url(../BAB-IV-Mengedit-Colom-Right/img/member_login.png) 0 10px no-repeat;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
     background-size: cover;
     margin: 0 auto;
     font-size: 20px;
